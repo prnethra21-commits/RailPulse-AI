@@ -1,0 +1,38 @@
+RailPulse AI - Day 1 Data Dictionary
+
+train_id
+Unique identifier for the train.
+
+route_id
+Identifier of the railway route.
+
+station_id
+Identifier of the station where the train record is recorded.
+
+timestamp
+Date and time associated with the train's station record.
+
+scheduled_arrival
+Scheduled arrival time at the station.
+
+actual_arrival
+Actual arrival time at the station.
+
+scheduled_departure
+Scheduled departure time from the station.
+
+actual_departure
+Actual departure time from the station.
+
+speed
+Train speed at the recorded station/section, in km/h.
+
+distance
+Distance travelled along the route from the starting station, in km.
+
+current_delay
+Current train delay compared with the scheduled time, in minutes.
+
+actual_section_time
+Actual travel time taken for the section leading to the current station, in minutes.
+This is the target variable that can be used for section travel-time prediction.
