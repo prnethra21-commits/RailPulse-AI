@@ -1,0 +1,13 @@
+RailPulse AI - Sample Dataset Rows
+
+These are sample records from day1_data.csv.
+
+train_id,route_id,station_id,timestamp,scheduled_arrival,actual_arrival,scheduled_departure,actual_departure,speed,distance,current_delay,actual_section_time
+
+12678,R1,KPD,2026-09-05 10:00,10:00,10:05,10:02,10:07,65,0,5,0
+
+12678,R1,VLR,2026-09-05 10:45,10:40,10:45,10:42,10:47,68,70,5,38
+
+12678,R1,KPD2,2026-09-05 11:35,11:25,11:35,11:27,11:37,70,135,10,43
+
+12678,R1,JTJ,2026-09-05 12:25,12:10,12:25,12:12,12:27,72,205,15,50
